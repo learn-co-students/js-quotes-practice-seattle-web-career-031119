@@ -11,6 +11,20 @@
 </head>
 <body class='container center'>
   <h1>My favorite quotes:</h1>
+  <button id="sort-button"> Sort by Author </button>
+  <div>
+    <form id="edit-quote-form" style="display: none;">
+      <div class="form-group">
+        <label for="edit-quote">Edit Quote</label>
+        <input type="text" class="form-control" id="edit-quote" placeholder="" value="">
+      </div>
+      <div class="form-group">
+        <label for="Author">Author</label>
+        <input type="text" class="form-control" id="edit-author" placeholder="" value="">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
   <div>
     <ul id="quote-list">
     </ul>
